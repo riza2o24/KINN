@@ -46,3 +46,18 @@
 .header__icon--image{
     width: 20px;
 }
+
+/* image */
+.image{
+    width: 100%;
+    height: 732px;
+    background-color: #FFFFEF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image__img{
+    width: 1300px;
+    height: 700px;
+}

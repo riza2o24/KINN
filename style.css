@@ -65,6 +65,27 @@
 .images{
     z-index: 1;
     position: absolute;
-    display: flex;
+    margin-top: 550px;
+    margin-left: 970px;
     text-align: right;
+}
+
+.image__paragf{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #56593D;
+    margin-bottom: 25px;
+}
+
+.image__text{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 45px;
+    color: #56593D;
+    margin-bottom: 40px;
+}
+
+.image__button{
+    padding: 16px 25px;
 }

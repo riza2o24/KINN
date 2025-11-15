@@ -65,8 +65,8 @@
 .images{
     z-index: 1;
     position: absolute;
-    margin-top: 550px;
-    margin-left: 970px;
+    margin-top: 400px;
+    margin-left: 730px;
     text-align: right;
 }
 
@@ -75,7 +75,7 @@
     font-weight: 400;
     font-size: 18px;
     color: #56593D;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 
 .image__text{
@@ -83,9 +83,15 @@
     font-weight: 400;
     font-size: 45px;
     color: #56593D;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .image__button{
     padding: 16px 25px;
+    border: none;
+    background-color: #56593D;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #ffffff;
 }

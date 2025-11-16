@@ -14,7 +14,7 @@
     width: 100%;
     max-width: 1440px;
     margin: auto;
-    padding: 0 50px;
+    padding: 0 30px;
 }
 
 .header{
@@ -49,8 +49,8 @@
 
 /* image */
 .image{
-    width: 1280px;
-    height: 732px;
+    width: 100%;
+    height: 740px;
     background-color: #FFFFEF;
     display: flex;
     align-items: center;
@@ -59,7 +59,7 @@
 }
 
 .image__img{
-    width: 1240px;
+    width: 1320px;
     height: 700px;
 }
 
@@ -67,7 +67,7 @@
     z-index: 1;
     position: absolute;
     margin-top: 400px;
-    margin-left: 650px;
+    margin-left: 740px;
     text-align: right;
 }
 
@@ -127,16 +127,15 @@
 
 /* box */
 .box{
-    width: 1240px;
+    width:100%;
     height: 738px;
     background-color: #FFFFEF;
+    padding-top: 60px;
 }
 
 .box__text{
-    margin-top: 60px;
     margin-bottom: 75px;
-    display: flex;
-    justify-content: center;
+    text-align: center;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 24px;

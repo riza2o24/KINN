@@ -166,6 +166,7 @@
 .hero{
     width: 100%;
     height: 732px;
+    background-color: #FFFFEF;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -174,8 +175,12 @@
 }
 
 .hero__image{
+    height: 680px;
+    width: 100%;
     background-image: url("image/Rectangle\ \(4\).png");
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
 }
 
 .hero__image--paragrf{
@@ -188,9 +193,11 @@
 }
 
 .hero__image--text{
+    margin: auto;
+    width: 1090px;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 50px;
     color: #56593D;
     margin-bottom: 25px;
 }

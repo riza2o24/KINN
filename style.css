@@ -160,3 +160,37 @@
     font-size: 15px;
     color: #56593D;
 }
+
+
+/* hero */
+.hero{
+    width: 100%;
+    height: 732px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.hero__image{
+    background-image: url("image/Rectangle\ \(4\).png");
+    background-size: contain;
+}
+
+.hero__image--paragrf{
+    margin-top: 60px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #56593D;
+    margin-bottom: 25px;
+}
+
+.hero__image--text{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #56593D;
+    margin-bottom: 25px;
+}

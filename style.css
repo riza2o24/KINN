@@ -123,3 +123,41 @@
     font-size: 16px;
     color: #56593D;
 }
+
+
+/* box */
+.box{
+    width: 1240px;
+    height: 738px;
+    background-color: #FFFFEF;
+}
+
+.box__text{
+    margin-top: 60px;
+    margin-bottom: 75px;
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #56593D;
+}
+
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards__card{
+    text-align: center;
+}
+
+.cards__card--paragrf{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #56593D;
+}
